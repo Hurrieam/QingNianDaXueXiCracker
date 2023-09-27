@@ -1,33 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>青年大学习截图获取器2.1</title>
-
-    <link rel="stylesheet" href="./styles/style.css">
-
+    <title>青年大学习截图获取器3.0</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./src/main.js"></script>
 </head>
-
 <body>
 
-    <h2>青年大学习截图获取器2.1</h2>
-    <h3>在下方粘贴大学习视频播放页的链接</h3>
-    <h4>链接获取及使用方法：在视频播放的同时单击右上角“···”，选择“复制链接”，粘贴到下方，然后单击“获取截图”。</h4>
-    <textarea class="url" placeholder="请将链接粘贴到此处"></textarea>
-    <br>
-    <input type="button" value="获取截图" class="get-screenshot">
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://hurrieam.github.io/">返回主页</a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <input type="button" value="全清" class="all-clear">
-    <h3>快速的飓风. © 2022</h3>
+<div class="container">
+    <div class="jumbotron">
+        <h1>青年大学习截图获取器3.0</h1>
+        <p>在下方粘贴大学习视频播放页的链接</p>
+        <p>链接获取及使用方法：在视频播放的同时单击右上角“···”，选择“复制链接”，粘贴到下方，然后单击“获取截图”。</p>
+        <a href="https://hurrieam.github.io/">返回主页</a>
+    </div>
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="firstname" class="col-sm-2 control-label">链接</label>
+            <div class="col-sm-8">
+                <input type="text" class="form-control url" id="firstname" placeholder="请将链接粘贴到此处">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary get-screenshot">获取截图</button>
+                <input type="button" value="&nbsp;全&nbsp;&nbsp;清&nbsp;" class="all-clear btn btn-danger">
+            </div>
+        </div>
+    </form>
+
+    <h4 style="text-align:center;">Copyright © Hurrieam 2023<br>all rights reserved</h4>
+
+</div>
 
 </body>
-
 </html>
-
-<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
-<script src="src/main.js"></script>

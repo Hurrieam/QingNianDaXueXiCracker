@@ -1,0 +1,23 @@
+{
+  "name": "qingniandaxuexicracker",
+  "version": "1.0.0",
+  "description": "用以跳过青年大学习的视频和题目，根据提示的步骤操作可直接获取截图",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm i && npx tsc && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hurrieam/QingNianDaXueXiCracker.git"
+  },
+  "author": "hurrieam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hurrieam/QingNianDaXueXiCracker/issues"
+  },
+  "homepage": "https://github.com/Hurrieam/QingNianDaXueXiCracker#readme",
+  "dependencies": {
+    "@types/jquery": "^3.5.19",
+    "typescript": "^5.2.2"
+  }
+}
